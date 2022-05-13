@@ -116,7 +116,7 @@ restart_quiz.onclick = ()=>{
     queCounter(que_numb);
     clearInterval(counter); 
     clearInterval(counterLine); 
-    startTimer(timeValue); /
+    startTimer(timeValue); 
     startTimerLine(widthValue); n
     timeText.textContent = "Time Left"; //change the text of timeText to Time Left
     next_btn.classList.remove("show"); //hide the next button
