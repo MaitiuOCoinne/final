@@ -53,7 +53,7 @@ movie_btn.onclick = ()=>{
 
     //Just testing after adding
     for (let index = 0; index < MovieQuestions.length; index++) {
-        console.log(Questions[index]);
+        console.log(questions[index]);
     }
 
     quiz_box.classList.add("activeQuiz"); //show quiz box
